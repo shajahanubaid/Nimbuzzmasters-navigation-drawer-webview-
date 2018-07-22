@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NimbuzzMasters Forum</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">NimbuzzMasters</string>
+    <string name="nav_header_subtitle">Forum Of The Forums</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="default_notification_channel_id">RED</string>
+    <string name="android_programming">Android programming</string>
+    <string name="server_bots">Server bots</string>
+</resources>

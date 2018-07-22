@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_serch"
+            android:icon="@drawable/search"
+            android:title="google search" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_screen_lock_portrait_black_24dp"
+            android:title="login" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/server"
+            android:title="@string/server_bots" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/android"
+            android:title="@string/android_programming" />
+
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_backup_black_24dp"
+                android:title="Check for updates" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_face_black_24dp"
+                android:title="About me" />
+
+
+
+
+        </menu>
+    </item>
+
+</menu>
